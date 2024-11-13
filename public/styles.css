@@ -1,0 +1,36 @@
+/* Style for container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/static/xabillabg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Style for logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px; /* Adjust size as needed */
+}
+
+/* Style for brand name */
+.brand-name {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 80px; /* Make the brand name larger */
+    color: #FFD700; /* Set to gold or adjust color if needed */
+    margin: 0;
+}
+
+/* Style for tagline */
+.tagline {
+    color: white; /* Ensure the tagline is in white */
+    font-size: 20px; /* Adjust size as needed */
+    margin-top: 10px;
+}
